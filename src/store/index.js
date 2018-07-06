@@ -7,9 +7,12 @@ import * as actions from './actions'
 
 Vue.use(Vuex)
 
+const debug = process.env.NODE_ENV !== 'production'
+
 export default new Vuex.Store({
   actions,
   state,
   mutations,
-  getters
+  getters,
+  strict: debug
 })
