@@ -24,6 +24,6 @@ export default {
 </script>
 
 <style scoped lang="stylus" rel="stylesheel/stylus">
-  @import "common/stylus/index.styl";
+  /*@import "common/stylus/index.styl";*/
 
 </style>

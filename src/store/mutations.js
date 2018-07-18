@@ -22,11 +22,11 @@ const mutations = {
   },
 
   [types.SET_PLAY_MODE](state, mode) {
-    types.mode = mode
+    state.mode = mode
   },
 
   [types.SET_CURRENT_INDEX](state, index) {
-    types.currentIndex = index
+    state.currentIndex = index
   }
 }
 
